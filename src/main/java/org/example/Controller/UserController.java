@@ -45,4 +45,5 @@ public class UserController {
     public void registerStudent(@RequestBody User user){
         userMapper.insert(user);
     }
+
 }

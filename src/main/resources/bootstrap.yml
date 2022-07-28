@@ -2,11 +2,13 @@ server:
   port: 8081
 spring:
     application:
-      name: wang
-    profiles:
-      active: dev
+      name: student
+#    profiles:
+#      active: dev
     cloud:
       nacos:
-        server-addr: 127.0.0.1:8848
+        discovery:
+          server-addr: 127.0.0.1:8848
         config:
+          server-addr: localhost:8848
           file-extension: yml
