@@ -64,4 +64,5 @@ af04-ffe4-4804-a112-93a7177b4ec0.png">
 <img width="943" alt="截屏2022-07-29 19 07 10" src="https://user-images.githubusercontent.com/44705882/181747273-b2a0d965-ad3e-4d3d-ad60-c3c6fc0578d6.png">
 在8088端口正常获取学生信息：
 <img width="1020" alt="截屏2022-07-29 19 10 20" src="https://user-images.githubusercontent.com/44705882/181747239-88f2f39b-adca-449c-acc7-86bb99495e3a.png">
-
+dockerfile：
+<img width="953" alt="截屏2022-07-29 19 15 25" src="https://user-images.githubusercontent.com/44705882/181747870-8466bc7c-dc24-4ebe-bef0-e1b0e8e9b25a.png">
