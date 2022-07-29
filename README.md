@@ -44,24 +44,24 @@
 ![截屏2022-07-29 18 56 38 (2)](https://user-images.githubusercontent.com/44705882/181745402-ae849002-dde9-4bce-99a0-6464a8202c9b.png)
   配置文件：
   ![截屏2022-07-29 18 57 12 (2)](https://user-images.githubusercontent.com/44705882/181745580-49cd7644-9580-4522-abd6-3693dfbabd6d.png)
-  配置文件中定义了时间的格式，到8081端口的/now路径下查看
+  配置文件中定义了时间的格式，到8081端口的/now路径下查看<br />
   ![截屏2022-07-29 18 57 03 (2)](https://user-images.githubusercontent.com/44705882/181745727-dbfc8481-0e70-43f1-ac0f-9786220248a8.png)
   可以正常显示时间。
 * 服务中心：
 ![截屏2022-07-29 18 56 42 (2)](https://user-images.githubusercontent.com/44705882/181745475-edcfba99-b077-4f43-9608-91961f01f6ef.png)
 
 ### Feign（8082端口）
-通过Feign调取学生管理系统项目中的学生信息并打印，设置在了8082端口的s1路径下。
+通过Feign调取学生管理系统项目中的学生信息并打印，设置在了8082端口的s1路径下。<br />
 ![截屏2022-07-29 19 01 56 (2)](https://user-images.githubusercontent.com/44705882/181746156-75c53e59-aae6-4dc5-a9bb-db64a4ed74cd.png)
 
 ### Docker部署
-创建镜像->创建容器->运行
-查看运行中的容器：
+创建镜像->创建容器->运行<br />
+查看运行中的容器：<br />
 <img width="941" alt="截屏2022-07-29 19 05 19" src="https://user-images.githubusercontent.com/44705882/181746403-4deaeae8-26f6-470a-96d8-fd82334e016f.png">
-查看运行日志
+查看运行日志：<br />
 <img width="943" alt="截屏2022-07-29 19 06 36" src="https://user-images.githubusercontent.com/44705882/181747992-2f5e7e36-5c2a-473b-b445-53f7d51b004b.png">
 <img width="943" alt="截屏2022-07-29 19 07 10" src="https://user-images.githubusercontent.com/44705882/181747273-b2a0d965-ad3e-4d3d-ad60-c3c6fc0578d6.png">
-在8088端口正常获取学生信息：
+在8088端口正常获取学生信息：<br />
 <img width="1020" alt="截屏2022-07-29 19 10 20" src="https://user-images.githubusercontent.com/44705882/181747239-88f2f39b-adca-449c-acc7-86bb99495e3a.png">
-dockerfile：
+dockerfile：<br />
 <img width="953" alt="截屏2022-07-29 19 15 25" src="https://user-images.githubusercontent.com/44705882/181747870-8466bc7c-dc24-4ebe-bef0-e1b0e8e9b25a.png">
