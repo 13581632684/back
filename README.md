@@ -60,9 +60,6 @@
 创建镜像->创建容器->运行<br />
 查看运行中的容器：<br />
 <img width="941" alt="截屏2022-07-29 19 05 19" src="https://user-images.githubusercontent.com/44705882/181746403-4deaeae8-26f6-470a-96d8-fd82334e016f.png">
-查看运行日志：<br />
-<img width="943" alt="截屏2022-07-29 19 06 36" src="https://user-images.githubusercontent.com/44705882/181747992-2f5e7e36-5c2a-473b-b445-53f7d51b004b.png">
-<img width="943" alt="截屏2022-07-29 19 07 10" src="https://user-images.githubusercontent.com/44705882/181747273-b2a0d965-ad3e-4d3d-ad60-c3c6fc0578d6.png">
 在8088端口正常获取学生信息：<br />
 <img width="1020" alt="截屏2022-07-29 19 10 20" src="https://user-images.githubusercontent.com/44705882/181747239-88f2f39b-adca-449c-acc7-86bb99495e3a.png">
 dockerfile：<br />
