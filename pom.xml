@@ -19,6 +19,7 @@
     <version>2.6.3</version>
     <relativePath/>
 </parent>
+
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -53,7 +54,8 @@
     <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
-        <scope>runtime</scope>
+<!--        <scope>runtime</scope>-->
+        <version>8.0.28</version>
     </dependency>
 
     <dependency>
@@ -142,6 +144,7 @@
         <version>2.2.9.RELEASE</version>
     </dependency>
 
+
 <!--    <dependency>-->
 <!--        <groupId>org.springframework.cloud</groupId>-->
 <!--        <artifactId>spring-cloud-loadbalancer</artifactId>-->
@@ -169,6 +172,56 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.yml</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.yml</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+
+
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>${maven-compiler-plugin.version}</version>-->
+<!--                <configuration>-->
+<!--                    <source>1.8</source>-->
+<!--                    <target>1.8</target>-->
+<!--                    <skip>true</skip>-->
+<!--                    <encoding>UTF-8</encoding>-->
+<!--                    <compilerArguments>-->
+<!--                        <extdirs>${project.basedir}/src/main/resources/lib</extdirs>-->
+<!--                    </compilerArguments>-->
+<!--                </configuration>-->
+
+            </plugin>
+
+
+        </plugins>
+
+
+    </build>
 
 
 </project>
