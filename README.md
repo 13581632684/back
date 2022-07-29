@@ -59,7 +59,7 @@
 ### Docker部署
 创建镜像->创建容器->运行<br />
 查看运行中的容器：<br />
-<img width="941" alt="截屏2022-07-29 19 05 19" src="https://user-images.githubusercontent.com/44705882/181746403-4deaeae8-26f6-470a-96d8-fd82334e016f.png">
+<img width="941" alt="截屏2022-07-29 19 05 19" src="https://user-images.githubusercontent.com/44705882/181746403-4deaeae8-26f6-470a-96d8-fd82334e016f.png"><br />
 在8088端口正常获取学生信息：<br />
 <img width="1020" alt="截屏2022-07-29 19 10 20" src="https://user-images.githubusercontent.com/44705882/181747239-88f2f39b-adca-449c-acc7-86bb99495e3a.png">
 dockerfile：<br />
