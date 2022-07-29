@@ -59,8 +59,7 @@
 查看运行中的容器：
 <img width="941" alt="截屏2022-07-29 19 05 19" src="https://user-images.githubusercontent.com/44705882/181746403-4deaeae8-26f6-470a-96d8-fd82334e016f.png">
 查看运行日志
-<img width="943" alt="截屏2022-07-29 19 06 36" src="https://user-images.githubusercontent.com/44705882/181746677-91dd<img width="943" alt="截屏2022-07-29 19 07 10" src="https://user-images.githubusercontent.com/44705882/181746721-f2fef2dd-e4a1-47e6-8cce-c2103b748aea.png">
-af04-ffe4-4804-a112-93a7177b4ec0.png">
+<img width="943" alt="截屏2022-07-29 19 06 36" src="https://user-images.githubusercontent.com/44705882/181747992-2f5e7e36-5c2a-473b-b445-53f7d51b004b.png">
 <img width="943" alt="截屏2022-07-29 19 07 10" src="https://user-images.githubusercontent.com/44705882/181747273-b2a0d965-ad3e-4d3d-ad60-c3c6fc0578d6.png">
 在8088端口正常获取学生信息：
 <img width="1020" alt="截屏2022-07-29 19 10 20" src="https://user-images.githubusercontent.com/44705882/181747239-88f2f39b-adca-449c-acc7-86bb99495e3a.png">
